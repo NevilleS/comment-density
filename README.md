@@ -50,6 +50,8 @@ Needs Node 22.18+ on the PATH, since it runs the `.mts` files directly. The plug
 
 - **`SessionStart`:** tells the agent to run `comment-density --branch` before calling work finished.
 
+The warning tells the agent to load a `writing-code-comments` skill for the full rules, if it has one. PostHog's is a good fit: [skills.sh/posthog/posthog/writing-code-comments](https://www.skills.sh/posthog/posthog/writing-code-comments).
+
 To turn it off, `claude plugin uninstall comment-density`.
 
 ## Install by hand

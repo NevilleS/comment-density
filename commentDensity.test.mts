@@ -323,7 +323,7 @@ describe("renderAgentMessage", () => {
     assert.ok(message.includes("  src/b.ts (2 of 3)\n  src/a.ts (1 of 21)\n"));
     assert.ok(message.includes("this warning is addressed to you"));
     assert.ok(message.includes("Do not reword the comments"));
-    assert.ok(message.includes("~/.claude/skills/writing-code-comments/SKILL.md"));
+    assert.ok(message.includes("load the\nwriting-code-comments skill if you have one."));
   });
 
   test("branch mode tells the agent to fold removals into the commits that added them", () => {

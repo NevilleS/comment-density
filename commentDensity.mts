@@ -292,8 +292,8 @@ export function renderAgentMessage(
     ...fixStep,
     "",
     `Remove at least ${linesToRemove(report, warnRatio)} of the ${report.addedCommentLines} added comment lines to get under ${Number((100 * warnRatio).toFixed(2))}%.`,
-    "The target is the baseline, not a slightly smaller number. The full rules are in",
-    "~/.claude/skills/writing-code-comments/SKILL.md.",
+    "The target is the baseline, not a slightly smaller number. For the full rules, load the",
+    "writing-code-comments skill if you have one.",
   ].join("\n");
 }
 

@@ -1,7 +1,7 @@
 {
   "name": "comment-density",
   "description": "Measures how much of an agent's added code is full-line comments, and tells it to prune when it's too much",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": { "name": "Neville Samuell" },
   "homepage": "https://github.com/NevilleS/comment-density",
   "repository": "https://github.com/NevilleS/comment-density",
