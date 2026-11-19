@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "comment-density",
+  "description": "The comment-density plugin",
+  "owner": { "name": "Neville Samuell" },
+  "plugins": [
+    {
+      "name": "comment-density",
+      "description": "Measures how much of an agent's added code is full-line comments, and tells it to prune when it's too much",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/NevilleS/comment-density"
+    }
+  ]
+}
